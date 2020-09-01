@@ -8,7 +8,7 @@ import chap17.chap17_3.懒汉式.SingleTon3;
  */
 public class TestSingleTon {
     public static void main(String[] args) {
-        for(int i=0;i<3;i++){
+        for (int i = 0; i < 3; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
