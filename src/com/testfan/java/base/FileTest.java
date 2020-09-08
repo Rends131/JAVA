@@ -5,16 +5,16 @@ import java.io.*;
 public class FileTest {
     public static void main(String[] args) throws IOException {
         FileTest f = new FileTest();
-        f.fileTest();
+//        f.fileTest();
 
-//        f.fileInputTest();
+        f.fileInputTest();
 //        f.outputSteamTest();
 //        f.readerTest();
 
 //        f.writeTest();
     }
     public void fileInputTest() throws IOException {
-        FileInputStream inputStream = new FileInputStream("D:\\有效代码统计作业材料/ActionController.java");
+        FileInputStream inputStream = new FileInputStream("D:\\有效代码统计/ActionController.java");
 //        int len = inputStream.read();
 //        System.out.println(len);
         byte[] by = new byte[1024];
